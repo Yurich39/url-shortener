@@ -3,7 +3,6 @@ WORKDIR /usr/src/app/url_shortener
 COPY cmd ./cmd
 COPY config ./config
 COPY internal ./internal
-COPY db-data ./db-data
 
 COPY go.mod ./
 COPY go.sum ./
